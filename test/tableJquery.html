@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script src="/share/lib/jquery-1.11.3.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("td").click(function(){
+        $(this).hide();
+    });
+});
+</script>
+</head>
+<body>
+<div>
+<div>
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+</div>
+<div>
+<table style="width:100%">
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>		
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>		
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>		
+    <td>80</td>
+  </tr>
+</table>
+</div>
+</div>
+</body>
+</html>
