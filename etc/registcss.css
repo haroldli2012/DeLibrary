@@ -1,0 +1,153 @@
+﻿.topbar {
+   margin:auto;
+   width:70%;
+   height:70px;
+   border-bottom:2px solid orangered;
+  }
+
+#canvas {
+    
+    margin:10px;
+    
+    display:inline-block;
+    float:left;
+   }
+
+.topbar div{
+   
+   padding:10px;
+   display:inline-block;
+   border-left:2px solid orangered;
+   font-size:25px;
+   margin-bottom:8px;
+   width:40%;
+   
+   float:left;
+   margin-top:15px;
+  }
+
+.topbar a{
+    display:inline-block;
+    float:right;
+    font-size:14px;
+    padding:5px;
+    margin-top:35px;
+    text-decoration:none;
+    color:black;
+   }
+
+.subnavbar {
+  clear:both;
+  width:60%;
+  margin:auto;
+  border-bottom:1px solid orangered;
+  margin-top:60px;
+  }
+
+.subnavbar span{
+   display:inline-block;
+   padding:12px;
+   font-weight:bold;
+   margin:0px 5px 0px 5px;
+   cursor:pointer;
+   }
+
+#sp1 {border-bottom:3px solid orangered;}
+
+.content {
+   width:50%;
+   margin:auto;
+   margin-top:20px;
+   }
+
+table {width:100%;}
+
+tr {
+   width:100%;
+   height:30px;
+   }
+
+td:first-child {width:15%;}
+td:last-child {
+   width:40%;
+
+   font-size:14px;
+   padding:6px;
+   color:black;
+  }
+
+
+input{
+  padding:12px 10px;
+  margin:4px;
+  width:100%;
+  }
+
+input[type=submit] {
+   background-color:orange;
+   border:none;
+   color:white;
+   padding:8px;
+   text-decoration:none;
+   font-size:18px;
+   margin:15px 20%;
+   letter-spacing:5px;
+   cursor:pointer;
+   width:60%;
+   }
+
+.mail{
+   width:100%;
+   display:none;
+   }
+
+
+.wechat {
+   display:none;
+   }
+
+.cellphone {
+   display:block;
+
+   }
+
+.account {
+   display:none;
+   width:100%;
+   }
+
+#loginput{
+  width:60%;
+  float:left;
+  border-right: 2px ridge AliceBlue;
+  }
+
+#loginput input{
+  width:100%;
+  padding:12px 10px;
+  margin:4px 0;
+  }
+
+.account p {margin:10px;}
+
+#loginput .half {width:100%;}
+
+#loginput input[type=button] {
+   background-color:orange;
+   border:none;
+   color:white;
+   padding:8px;
+   text-decoration:none;
+   cursor:point;
+   font-size:18px;
+   width:40%;
+   margin:5px 5px 10px 30%;
+   letter-spacing:5px;
+   cursor:pointer;
+   }
+#loginput span#forgetpass {font-size:12px; width:20%}
+
+#loginelse p {
+   position:relative;
+   left:10px;
+   }

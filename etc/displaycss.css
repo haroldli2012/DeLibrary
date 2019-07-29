@@ -1,0 +1,254 @@
+﻿.display {
+  font-size:0.875em;
+  margin:auto;
+  }
+
+.back {
+  float:left;
+  position:relative;
+  top:5px;
+ }
+
+h2 a {
+  height:1.25em;
+  text-docaration:none;
+}
+
+.title {
+  text-align:center;
+  color:darkblue;
+  padding:10px;
+  margin-top:5px;
+  border-bottom: 2px solid orange;
+  }
+
+.forward {
+  float:right;
+  position:relative;
+  top:5px;
+ }
+
+.pics {
+  border:1px solid #ccc;
+  margin: 0 0 1em 0;
+  max-width:400px;
+  min-width:280px;
+  float:left;
+  }
+
+ p {
+  line-height:1.5em;
+  margin:0.5em 0.5em;
+  }
+
+@media only screen and (max-width: 768px) {
+  p {clear:both;}
+  }
+
+@media only screen and (min-width: 768px) {
+  .pics {margin: 0 1em 1em 0;}
+  }
+
+.pic {
+    display:block;
+    width: 100%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    overflow:hidden;
+  }
+
+.slidebox {
+    height:60px;
+   }
+
+.spic {
+    width: 50px;
+    height:50px;
+    border: 1px solid #ccc;
+    margin: 5px 2px;
+    cursor: pointer;
+  }
+
+.folio {
+  display:inline-block;
+  }
+
+.next, .prev {
+    display:inline-block;
+    position:relative;
+    bottom:25px;
+    height:60px;
+    cursor:pointer;
+  }
+
+.pic:hover, .spic:hover {
+    border: 1px solid #777;
+  }
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 500px;
+}
+
+/* Add Animation */
+.modal-content {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0.1)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nextpic {
+    position: absolute;
+    top: 48%;
+    right:10%;
+    color: #f1f1f1;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor:pointer;
+ }
+
+.prevpic {
+    position: absolute;
+    display:block;
+    top: 48%;
+    left:10%;
+    color: #f1f1f1;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor:pointer;
+ }
+
+/* Responsive Columns */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+
+.dent p{
+  text-indent:2em;
+ }
+
+.maincontent button {
+  padding:5px;
+  background-color:black;
+  border:1px solid black;
+  color:white;
+  cursor:pointer;
+  border-radius:3px;
+  margin:0 0.5em;
+  }
+
+.maincontent input {
+  margin:0 0.5em;
+  }
+
+.apply input, textarea{
+  outline:none;
+  border:1px solid orange;
+  border-radius:4px;
+  padding:3px;
+  }
+
+.apply .error {
+   color: red;
+   text-align:center;
+  }
+
+p.error {
+   margin:0;
+  }
+
+.apply span {
+   margin: 0 0 5px 0;
+  }
+
+textarea {
+  width:100%;
+  height:80px;
+  }
+
+
+.apply {
+  margin:10px;
+}
+
+.apply p {
+  margin-bottom:5px;
+  }
+
+.iwant {
+  padding:5px;
+  background:gold;
+  color:blue;
+  text-align:center;
+  }
+
+#tijiao {
+  background-color:gold;
+  color:blue;
+  display:block;
+  margin:auto;
+  width:20%;
+  padding:10px;
+  margin-top:10px;
+  cursor:pointer;
+  border:1px solid orange;
+  border-radius:4px;
+  }
+
+#done {
+  display:none;
+  }

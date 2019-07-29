@@ -1,0 +1,475 @@
+﻿.menu {display:none;}
+.menu2 {display:block;}
+
+@media only screen and (min-width: 768px) {
+ .menu {display:block;}
+ .menu2 {display:none;}
+}
+
+ul.menu{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   background-color: #5f5f5f;
+   position:absolute;
+   top:0px;
+   left:0px;
+   width:100%;
+   min-width:630px;
+   z-index:9;
+   }
+
+ul.menu2{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   background-color:#5f5f5f;
+   position:absolute;
+   top:0px;
+   left:0px;
+   width:100%;
+   z-index:9;
+   }
+
+ul li{
+   float:left;
+  }
+
+ul.menu li.right{
+   float: right;
+   width:20%;
+   min-width:120px;
+  }
+
+ul.menu li.logo{
+   width:20%;
+   min-width:130px;
+  }
+
+ul.menu li.logo .canvas{
+  float:right; 
+}
+
+ul.menu2 li.logo .canvas {
+  margin-left:50%;
+  position:relative;
+  left:-65px;
+}
+
+.location {
+  color: white;
+  cursor:pointer;
+  width:6%;
+  min-width:65px;
+  padding: 1em 0px 1em 0px;
+  text-decoration: none;
+  font-weight:normal;
+  font-size:1em;
+  text-align:center;
+}
+
+div.location {
+  display:inline-block;
+  margin-left:0.5em;
+}
+
+.location span {
+   padding-right:0;
+   margin-right:-5px;
+   font-size:0.875em;
+}
+
+.location .iconfont {
+  font-size:0.875em;
+  }
+
+ul.menu li a{
+   display: block;
+   color: white;
+   text-align: center;
+   margin:0;
+   padding: 0.875em 1.125em 0.875em 1.125em;
+   width:100%;
+   text-decoration: none;
+   font-weight:bold;
+   font-size:1.125em;
+   
+    }
+
+li.right span{
+   display:inline-block;
+   padding: 1.125em 0 1em 0;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   font-weight:bold;
+   font-size:0.875em;
+   cursor:pointer;
+  }
+
+li.right span :hover{
+   background-color: orange;
+}
+
+ul.menu li.right {
+  text-align:left;
+}
+
+ul.menu2 li.right {
+  text-align:right;
+}
+
+.quit {
+  margin-left:0.75em;
+}
+
+ul.menu li a:hover{
+   background-color: orange;
+   }
+
+.active{
+   background-color: gold;
+   }
+
+.menu2 li.small {
+  width:33.33%;
+  display:inline-block;
+}
+
+.dropbtn {
+    font-size:1.5em;
+    margin:0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    margin:0;
+    padding:0;
+    position: relative;
+    display: inline-block;
+    top:0.25em;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width:4.5em;
+    left: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    width:100%;
+    padding:0.5em;
+    text-align:center;
+    text-decoration: none;
+    display: block;
+    font-size:1em;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+#city {
+   position:absolute;
+   background-color:white;
+   top:50px;
+   left:0;
+   display:none;
+   border:solid;
+   border-color:#D0F8F8;
+   z-index:9;
+}
+
+@media only screen and (min-width: 768px) {
+  #city {left:20%;}
+}
+#zones{
+   background-color:#D0F8F8;
+   padding:0.5em 0.5em 0.4em 0.5em;
+}
+
+#zones span{
+   
+   cursor:pointer;
+   font-size:0.875em;
+   padding:0.5em 0.5em;
+   
+}
+
+#zones span#zone1 {background-color:white;}
+
+#cities{
+   padding:5px;
+   background-color:white;
+   z-index:1;
+}
+
+#cities table td,#cities table th{
+   text-align:center;
+   width:55px;
+   padding:3px;
+   font-size:0.75em;
+}
+
+
+#cities table td:hover {
+   background-color:orange;
+   cursor:pointer;
+  }
+
+#login {
+  background-color:white;
+  border:2px solid orange;
+  padding:0;
+  display:none;
+  top:4em;
+  position:absolute;
+  z-index:201;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  }
+
+.loginback {
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  display:none;
+  opacity:0.6;
+  z-index:200;
+  background-color:grey;
+  }
+
+#dialogbar {
+  background-color:orange;
+  font-weight:bold;
+  color:white;
+  }
+
+#dialogbar h5 {
+  padding:0.5em;
+  margin:0;
+}
+
+#dialogbar span#x {
+  display:block;
+  float:right;
+  padding:0 0.5em;
+  }
+
+#dialogbar span#x:hover{
+  background-color:#FF8800;
+  cursor:pointer;
+}
+
+.subnavbar {
+  clear:both;
+  margin:auto;
+  border-bottom:1px solid orangered;
+  margin-top:0.75em;
+  }
+
+.subnavbar span{
+   display:inline-block;
+   padding:5px;
+   font-weight:bold;
+   width:50%;
+   text-align:center;
+   cursor:pointer;
+   font-size:1em;
+   }
+
+#sp1 {border-bottom:3px solid orangered;}
+
+.content {
+   margin:auto;
+   margin-top:1em;
+   }
+
+#loginput{
+  width:100%;
+  }
+
+#loginput input{
+  width:100%;
+  padding:0.5em;
+  margin:0.25em 0;
+  outline:none;
+  border:1px solid orange;
+  }
+
+#login p {
+  margin:0.25em 0 0 0.25em;
+  padding:0;
+}
+
+#captcha {
+ width:7em;
+}
+
+#loginput span.refresh {
+  font-size:0.75em;
+  vertical-align:center;
+  padding:0.75em;
+  background-color:#f9f9f9;
+  box-shadow:0 0.5em 1em 0 rgba(0,0,0,0.2);
+  position:relative;
+  top:-1.5em;
+  margin-left:1em;
+  cursor:pointer;
+}
+
+span#error {
+  color:red;
+  padding:0.375em
+  font-size:0.75em;
+  width:100%;
+  text-align:center;
+  display:block;
+ }
+
+#loginput input[type=button] {
+   background-color:orange;
+   border:none;
+   color:white;
+   padding:0.5em;
+   text-decoration:none;
+   cursor:pointer;
+   font-size:1em;
+   width:48%;
+   margin-left:25%;
+   letter-spacing:0.625em;
+   cursor:pointer;
+   }
+
+#loginput span#forgetpass {
+  font-size:0.75em;
+  width:20%;
+}
+
+#loginelse {
+  margin-top:0.5em;
+  border-top: 1px solid orange;
+}
+
+#loginelse p {
+   margin:0.75em;
+   }
+
+
+.cellphone table {
+   width:100%;
+   }
+
+.cellphone tr {
+   width:100%;
+   }
+
+.cellphone td:first-child {
+  width:20%;
+  text-align:right;
+  font-size:0.875em;
+ }
+
+.cellphone td:last-child {
+   width:40%;
+   font-size:0.75em;
+   padding:0.375em;
+   color:black;
+  }
+
+.cellphone span {
+   font-size:0.75em;
+  }
+
+.cellphone td.phoneerror {
+   font-size:0.75em;
+   color:red;
+   padding:0.5em;
+ }
+
+.cellphone a {
+   font-size:0.75em;
+   text-decoration:none;
+  }
+
+.cellphone input[type=text], .cellphone input[type=password]{
+  padding:0.5em;
+  margin:0.25em;
+  width:100%;
+  outline:none;
+  border:1px solid orange;
+  }
+
+.cellphone checkbox {
+  outline:none;
+  border:1px solid orange;
+  }
+
+.cellphone input[type=submit] {
+   background-color:orange;
+   border:none;
+   color:white;
+   padding:0.5em;
+   text-decoration:none;
+   font-size:1em;
+   margin:1em 10%;
+   letter-spacing:0.625em;
+   cursor:pointer;
+   width:90%;
+   }
+
+.sms {
+  display:inline-block;
+  cursor:pointer;
+  }
+
+.cellphone {
+   display:none;
+   width:100%;
+   }
+
+.newuser, .noRegist {
+  display:none;
+  }
+
+#qqLoginBtn {
+  position:relative;
+  top:4px;
+ }
+
+#wb_connect_btn {
+  position:relative;
+  bottom:1px;
+}
+
+#footer {
+  clear:both;
+  margin-top:100px;
+  text-align:center;
+  width:100%;
+  font-size:0.875em;
+ }
+
+@media only screen and (min-width: 768px) {
+  #footer{margin-top:200px;}
+  }
+
+#footer a {
+  text-decoration:none;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  display: inline-block;
+  padding: 5px 20px;
+  cursor:pointer;
+  margin:0;
+ }
+
+

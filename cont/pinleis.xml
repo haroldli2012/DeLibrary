@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Pinleis>
+<Pinlei PinleiID="1" PinleiName="muyinyongpinwanju">母婴用品玩具</Pinlei>
+<Pinlei PinleiID="2" PinleiName="chongwuyuanyihuafei">宠物园艺花卉</Pinlei>
+<Pinlei PinleiID="3" PinleiName="shoujishuma">手机数码</Pinlei>
+<Pinlei PinleiID="4" PinleiName="jiadianjiajugongju">家电家具工具</Pinlei>
+<Pinlei PinleiID="5" PinleiName="fuzhuangxiemaoxiangbao">服装鞋帽箱包</Pinlei>
+<Pinlei PinleiID="6" PinleiName="wenhuayulei">文化娱乐</Pinlei>
+<Pinlei PinleiID="7" PinleiName="shipinxiaofeikaquan">食品消费卡券</Pinlei>
+<Pinlei PinleiID="8" PinleiName="jiaotonggongjuchuxing">交通工具出行</Pinlei>
+<Pinlei PinleiID="9" PinleiName="juzhusheshi">居住设施</Pinlei>
+<Pinlei PinleiID="10" PinleiName="fuwujineng">服务技能</Pinlei>
+<Pinlei PinleiID="11" PinleiName="huwaihuodong">户外活动</Pinlei>
+<Pinlei PinleiID="12" PinleiName="bendixinxi">本地信息</Pinlei>
+
+<Pinlei PinleiID="13" PinleiName="qita">其它</Pinlei>
+</Pinleis>
+
+

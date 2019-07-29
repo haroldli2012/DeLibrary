@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hints>
+<hint hintID="0" hintName="qita" frequency="0">其它</hint>
+<hint hintID="1" hintName="tongzhuang" frequency="1">童装</hint>
+<hint hintID="2" hintName="naifen" frequency="1">奶粉</hint>
+<hint hintID="3" hintName="yinerchuang" frequency="1">婴儿床</hint>
+<hint hintID="4" hintName="tuiche" frequency="1">推车</hint>
+<hint hintID="5" hintName="niuniuche" frequency="14">扭扭车</hint>
+<hint hintID="6" hintName="tongche" frequency="1">童车</hint>
+<hint hintID="7" hintName="yaokongmoxing" frequency="1">遥控模型</hint>
+<hint hintID="8" hintName="zaojiaoyizhi" frequency="1">早教益智</hint>
+<hint hintID="9" hintName="xishui" frequency="1">戏水</hint>
+<hint hintID="10" hintName="qitawanju" frequency="1">其它玩具</hint>
+<hint hintID="11" hintName="chongwugou" frequency="2">宠物狗</hint>
+<hint hintID="12" hintName="chongwumao" frequency="2">宠物猫</hint>
+<hint hintID="13" hintName="hualiaoyuchong" frequency="2">花鸟鱼虫</hint>
+<hint hintID="14" hintName="chongwuyongpinshipin" frequency="2">宠物用品食品</hint>
+<hint hintID="15" hintName="lvsezhiwu" frequency="2">绿色植物</hint>
+<hint hintID="16" hintName="huahuipengzai" frequency="2">花卉盆栽</hint>
+<hint hintID="17" hintName="zhongzi" frequency="2">种子</hint>
+<hint hintID="18" hintName="feiliao" frequency="2">肥料</hint>
+<hint hintID="19" hintName="xianhua" frequency="2">鲜花</hint>
+<hint hintID="20" hintName="shouji" frequency="3">手机</hint>
+<hint hintID="21" hintName="bijibendiannao" frequency="3">笔记本电脑</hint>
+<hint hintID="22" hintName="pinbandiannao" frequency="3">平板电脑</hint>
+<hint hintID="23" hintName="shumachanpin" frequency="3">数码产品</hint>
+<hint hintID="24" hintName="fujianpeijian" frequency="3">附件配件</hint>
+<hint hintID="25" hintName="chongzhika" frequency="3">充值卡</hint>
+<hint hintID="26" hintName="jiayongdianqi" frequency="4">家用电器</hint>
+<hint hintID="27" hintName="jiaju" frequency="4">家具</hint>
+<hint hintID="28" hintName="riyongpin" frequency="4">日用品</hint>
+<hint hintID="29" hintName="bagongyongpin" frequency="4">办公用品</hint>
+<hint hintID="30" hintName="jiazhuangjiancai" frequency="4">家装建材</hint>
+<hint hintID="31" hintName="jiafangjiashi" frequency="4">家纺家饰</hint>
+<hint hintID="32" hintName="jiayongkongju" frequency="4">家用工具</hint>
+<hint hintID="33" hintName="xiaojiadian" frequency="4">小家电</hint>
+<hint hintID="34" hintName="dengjuzhaoming" frequency="4">灯具照明</hint>
+<hint hintID="35" hintName="dianziqicai" frequency="4">电子器件</hint>
+<hint hintID="36" hintName="changyongyibiao" frequency="4">常用仪表</hint>
+<hint hintID="37" hintName="nanzhuang" frequency="5">男装</hint>
+<hint hintID="38" hintName="nvzhuang" frequency="5">女装</hint>
+<hint hintID="39" hintName="nanxie" frequency="5">男鞋</hint>
+<hint hintID="40" hintName="nvxie" frequency="5">女鞋</hint>
+<hint hintID="41" hintName="xinglixiang" frequency="5">行李箱</hint>
+<hint hintID="42" hintName="shuishenbao" frequency="5">随身包</hint>
+<hint hintID="43" hintName="peishijian" frequency="5">配饰件</hint>
+<hint hintID="44" hintName="yishushoucang" frequency="6">艺术收藏</hint>
+<hint hintID="45" hintName="leqi" frequency="6">乐器</hint>
+<hint hintID="46" hintName="tushu" frequency="6">图书</hint>
+<hint hintID="47" hintName="yinxiang" frequency="6">音像</hint>
+<hint hintID="48" hintName="ruanjian" frequency="6">软件</hint>
+<hint hintID="49" hintName="xuniwupin" frequency="6">虚拟物品</hint>
+<hint hintID="50" hintName="dianyinpiao" frequency="6">电影票</hint>
+<hint hintID="51" hintName="tiyusaishi" frequency="6">体育赛事</hint>
+<hint hintID="52" hintName="yanchumenpiao" frequency="6">演出门票</hint>
+<hint hintID="53" hintName="qitaruchangquan" frequency="6">其他入场券</hint>
+<hint hintID="54" hintName="linshi" frequency="7">零食</hint>
+<hint hintID="55" hintName="xinxianshuguo" frequency="7">新鲜蔬果</hint>
+<hint hintID="56" hintName="mimian" frequency="7">米面</hint>
+<hint hintID="57" hintName="chufangzuoliao" frequency="7">厨房作料</hint>
+<hint hintID="58" hintName="chayinpin" frequency="7">茶饮品</hint>
+<hint hintID="59" hintName="ganguoganhuo" frequency="7">干果干货</hint>
+<hint hintID="60" hintName="jiulei" frequency="7">酒类</hint>
+<hint hintID="61" hintName="gouwuka" frequency="7">购物卡</hint>
+<hint hintID="62" hintName="youhuiquan" frequency="7">优惠券</hint>
+<hint hintID="63" hintName="jiaoche" frequency="8">轿车</hint>
+<hint hintID="64" hintName="changtupingche" frequency="8">长途拼车</hint>
+<hint hintID="65" hintName="motuoche" frequency="8">摩托车</hint>
+<hint hintID="66" hintName="shangxiabanpingche" frequency="8">上下班拼车</hint>
+<hint hintID="67" hintName="zixingche" frequency="8">自行车</hint>
+<hint hintID="68" hintName="diandongche" frequency="8">电动车</hint>
+<hint hintID="69" hintName="qichepeijian" frequency="8">汽车配件</hint>
+<hint hintID="70" hintName="duanzhufang" frequency="9">短住房</hint>
+<hint hintID="71" hintName="changzhufang" frequency="9">长住房</hint>
+<hint hintID="72" hintName="xiezilou" frequency="9">写字楼</hint>
+<hint hintID="73" hintName="changfangcangku" frequency="9">厂房仓库</hint>
+<hint hintID="74" hintName="kongdi" frequency="9">空地</hint>
+<hint hintID="75" hintName="chewei" frequency="9">车位</hint>
+<hint hintID="76" hintName="banjia" frequency="10">搬家</hint>
+<hint hintID="77" hintName="xiaopengyoukanhu" frequency="10">小朋友看护</hint>
+<hint hintID="78" hintName="baojieqingxi" frequency="10">保洁清洗</hint>
+<hint hintID="79" hintName="guandaoshutong" frequency="10">管道疏通</hint>
+<hint hintID="80" hintName="diannaoweixiu" frequency="10">电脑维修</hint>
+<hint hintID="81" hintName="jiadianweixiu" frequency="10">家电维修</hint>
+<hint hintID="82" hintName="paotui" frequency="10">跑腿</hint>
+<hint hintID="83" hintName="zhuangxiuzhuangshi" frequency="10">装修装饰</hint>
+<hint hintID="84" hintName="yundongjianshen" frequency="10">运动健身</hint>
+<hint hintID="85" hintName="zhongxiaoxuejiaofu" frequency="10">中小学教辅</hint>
+<hint hintID="86" hintName="留学移民" frequency="10">留学移民</hint>
+<hint hintID="87" hintName="daijia" frequency="10">代驾</hint>
+<hint hintID="88" hintName="peilian" frequency="10">陪练</hint>
+<hint hintID="89" hintName="falvzixun" frequency="10">法律咨询</hint>
+<hint hintID="90" hintName="caiwukuaiji" frequency="10">财务会计</hint>
+<hint hintID="91" hintName="shejicehua" frequency="10">设计策划</hint>
+<hint hintID="92" hintName="xiaopengyoujiaoyou" frequency="11">小朋友郊游</hint>
+<hint hintID="93" hintName="guoneiyou" frequency="11">国内游</hint>
+<hint hintID="94" hintName="zhoubianyou" frequency="11">周边游</hint>
+<hint hintID="95" hintName="chujinyou" frequency="11">出境游</hint>
+<hint hintID="96" hintName="daoyoudandiren" frequency="11">导游当地人</hint>
+<hint hintID="97" hintName="lvyouhuodong" frequency="11">驴友活动</hint>
+<hint hintID="98" hintName="jucan" frequency="11">聚餐</hint>
+<hint hintID="99" hintName="jiaoyou" frequency="11">交友</hint>
+<hint hintID="100" hintName="tongxianghui" frequency="11">同乡会</hint>
+<hint hintID="101" hintName="chaoshihaibao" frequency="12">超市海报</hint>
+<hint hintID="102" hintName="chaochanghuodong" frequency="12">商场活动</hint>
+<hint hintID="103" hintName="xiaoquxiaoxi" frequency="12">小区消息</hint>
+<hint hintID="104" hintName="xiuxianyule" frequency="12">休闲娱乐</hint>
+<hint hintID="105" hintName="yudongjianshen" frequency="12">运动健身</hint>
+<hint hintID="106" hintName="yedianjiuba" frequency="12">夜店酒吧</hint>
+<hint hintID="107" hintName="lvyoujiudian" frequency="12">旅游酒店</hint>
+<hint hintID="108" hintName="shougongfang" frequency="12">手工坊</hint>
+<hint hintID="109" hintName="dianyingyuan" frequency="12">电影院</hint>
+<hint hintID="110" hintName="meitisoushen" frequency="2">美体瘦身</hint>
+<hint hintID="111" hintName="meironghufu" frequency="9">美容护肤</hint>
+<hint hintID="112" hintName="wudaojiayu" frequency="12">舞蹈瑜伽</hint>
+<hint hintID="113" hintName="meifahufa" frequency="6">美发护发</hint>
+<hint hintID="114" hintName="meijiawenshen" frequency="3">美甲纹身</hint>
+<hint hintID="115" hintName="geleijiamen" frequency="12">各类加盟</hint>
+<hint hintID="116" hintName="xunrenxunwu" frequency="13">寻人寻物</hint>
+<hint hintID="117" hintName="renlingzhaoling" frequency="13">认领招领</hint>
+
+<hint hintID="118" hintName="muyinyongpinwanju">母婴用品玩具</hint>
+
+<hint hintID="119" hintName="chongwuyuanyihuafei" frequency="1">宠物园艺花卉</hint>
+
+<hint hintID="120" hintName="shoujishuma" frequency="1">手机数码</hint>
+
+<hint hintID="121" hintName="jiadianjiajugongju" frequency="1">家电家具工具</hint>
+
+<hint hintID="122" hintName="fuzhuangxiemaoxiangbao" frequency="1">服装鞋帽箱包</hint>
+
+<hint hintID="123" hintName="wenhuayulei" frequency="1">文化娱乐</hint>
+
+<hint hintID="124" hintName="shipinxiaofeikaquan" frequency="1">食品消费卡券</hint>
+
+<hint hintID="125" hintName="jiaotonggongjuchuxing" frequency="1">交通工具出行</hint>
+
+<hint hintID="126" hintName="juzhusheshi" frequency="1">居住设施</hint>
+
+<hint hintID="127" hintName="fuwujineng" frequency="1">服务技能</hint>
+
+<hint hintID="128" hintName="huwaihuodong" frequency="1">户外活动</hint>
+
+<hint hintID="129" hintName="bendixinxi" frequency="1">本地信息</hint>
+
+
+<hint hintID="130" hintName="beijing" frequency="47">北京</hint><hint hintID="131" hintName="nanjing" frequency="209">南京</hint><hint hintID="132" hintName="mei" frequency="122">美</hint><hint hintID="133" hintName="mei" frequency="4">mei</hint><hint hintID="134" hintName="huhehaote" frequency="4">呼和浩特</hint><hint hintID="135" hintName="m" frequency="1">m</hint><hint hintID="136" hintName="nan" frequency="1">nan</hint><hint hintID="137" hintName="niuniu" frequency="15">扭扭</hint><hint hintID="138" hintName="" frequency="5784"/></hints>

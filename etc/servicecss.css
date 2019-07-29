@@ -1,0 +1,110 @@
+﻿.row {
+  margin:auto;
+ }
+
+h2 {
+  border-bottom: 2px orange solid;
+  margin-bottom:5px;
+}
+
+.col-2, .col-9 {
+  display:inline-block;
+  vertical-align:top;
+  }
+
+ .sidenav {display:none;}
+ .sidenav2 {display:block;}
+
+@media only screen and (min-width: 768px) {
+ .sidenav {display:inline-block;}
+ .sidenav2 {display:none;}
+ .main-window {
+  border-left:1px orange solid;
+  }
+}
+
+.sidenav2 {
+  font-size:1em;
+  text-align:center;
+  border-bottom: 1px orange solid;
+  margin-top:0;
+  }
+
+.sidenav2 p {
+  display:inline-block;
+  border-left:1px white solid;
+  border-right:1px white solid;
+  margin-bottom:0;
+  }
+
+
+.sidenav {
+  font-size:1em;
+  text-align:right;
+  }
+
+.sidenav p {
+  margin:0;
+  border-bottom:1px white solid;
+}
+
+.label {
+  text-align:right;
+  padding:10px;
+  cursor: pointer;
+  }
+
+.label:hover {
+  background-color:#ff9933;
+}
+
+
+.label a {
+  text-decoration:none;
+}
+
+
+
+.main-window {
+  padding-left:10px;
+  min-height:100%;
+  }
+
+.main-window p {
+  text-align:left;
+  padding:10px;
+  margin:0.125em 0;
+  }
+
+.contract-detail h5 {
+  text-align:center;
+}
+
+.aboutus-detail p {
+  text-indent:2em;
+}
+
+.complain-detail input {
+  width:75%;
+  padding:0.75em;
+  outline:none;
+  border:1px orange solid;
+ }
+
+textarea {
+  width:75%;
+  height:300px;
+  outline:none;
+  border:1px orange solid;
+}
+
+.complain-detail button {
+  margin-left:15%;
+  width:30%;
+  padding:0.5em 1em;
+  background-color:orange;
+  font-weight:bold;
+  font-size:1em;
+  color:white;
+  }
+

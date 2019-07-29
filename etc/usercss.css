@@ -1,0 +1,161 @@
+﻿.row {
+  margin:auto;
+ }
+
+h2 {
+  border-bottom: 2px orange solid;
+  margin-bottom:5px;
+}
+
+.col-2, .col-9 {
+  display:inline-block;
+  vertical-align:top;
+  }
+
+ .sidenav {display:none;}
+ .sidenav2 {display:block;}
+
+@media only screen and (min-width: 768px) {
+ .sidenav {display:inline-block;}
+ .sidenav2 {display:none;}
+ .main-window {
+  border-left:1px orange solid;
+  }
+}
+
+.sidenav2 {
+  font-size:1em;
+  text-align:center;
+  border-bottom: 1px orange solid;
+  margin-top:0;
+  padding:10px;
+  }
+
+.sidenav2 span {
+  border-left:1px white solid;
+  border-right:1px white solid;
+  }
+
+.sidenav {
+  font-size:1em;
+  text-align:right;
+  }
+
+.sidenav p {
+  margin:0;
+  border-bottom:1px white solid;
+}
+
+.label {
+  text-align:right;
+  padding:10px;
+  cursor: pointer;
+  }
+
+.label:hover {
+  background-color:#ff9933;
+  }
+
+.main-window {
+  padding-left:10px;
+  }
+
+.main-window p {
+  text-align:left;
+  padding:10px;
+  }
+
+button {
+  margin:0 15% 0 15%;
+  padding:5px;
+  background-color:orange;
+  font-weight:bold;
+  font-size:14px;
+  color:white;
+  }
+
+.baseinfo-detail {
+  display:block;
+  }
+
+.modify-personal-info {
+  display:none;
+ }
+
+.modify-personal-info input {
+  padding:5px;
+  width:300px;
+  font-size:14px;
+  margin-top:15px;
+ }
+
+#cityhint {
+  position:absolute;
+  z-index:10;
+  padding:5px;
+  background-color:white;
+ }
+
+input[type='radio'] {
+  margin-right: 30px;
+  width:10px;
+  }
+
+.modify-password {
+  display:none;
+  }
+
+.panxie-detail {
+  display:none;
+  }
+
+.history-detail {
+  display:none;
+  }
+
+h5 {
+  margin-top:10px;
+}
+
+.title {
+  clear:both;
+  padding:5px 20px;
+  font-size:20px;
+  text-align:left;
+  color:darkblue;
+  font-weight:bold;
+  border-bottom: 2px solid orange;
+  }
+
+.title a {
+  text-decoration:none;
+  }
+
+.title a:visit {
+  text-decoration:none;
+  }
+
+
+.title a:hover {
+  text-decoration:underline;
+  }
+
+.title a:active {
+  text-decoration:underline;
+  }
+
+.history-detail div {
+  font-size:14px;
+  margin:5px 0px 0px 15px;
+  }
+
+.history-detail {
+  margin:10px;
+  max-width:100%;
+  vertical-align:top;
+  }
+
+
+.history-detail .item {
+  font-weight:bold;
+  }
