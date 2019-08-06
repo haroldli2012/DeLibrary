@@ -1,0 +1,52 @@
+{
+  "name": "robin-template",
+  "version": "0.0.6",
+  "private": true,
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.0.5",
+    "webpack": "^4.29.3",
+    "ultrain-ts-lib": "^0.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "webpack --progress",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "webpack-cli": "^3.2.3",
+    "async": "^2.6.1",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.2.0",
+    "robin-lint": "^0.0.2",
+    "tslint": "^5.4.3",
+    "typescript": "^2.8.3",
+    "u3.js": "^0.3.14",
+    "ultrascript": "^1.1.1"
+  },
+  "description": "The robin default template",
+  "main": "contract/index.d.ts",
+  "typings": "index.d.ts",
+  "repository": "https://github.com/ultrain-os/robin-template.git",
+  "license": "MIT",
+  "keywords": [
+    "ultrain contract template"
+  ],
+  "engines": {
+    "node": ">=8.9"
+  },
+  "contract_name": "DeLibrary",
+  "template": "react-boilerplate"
+}
